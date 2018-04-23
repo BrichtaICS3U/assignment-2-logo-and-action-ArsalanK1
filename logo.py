@@ -1,6 +1,6 @@
 # ICS3U
 # Assignment 2: Logo
-# <your name>
+# <Arsalan Khan>
 
 # adapted from http://www.101computing.net/getting-started-with-pygame/
 
@@ -15,8 +15,6 @@ BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
 RED = (255, 0, 0)
-BLUE = (77, 121, 255)
-YELLOW = (255, 214, 51)
 
 # Set the screen size (please don't change this)
 SCREENWIDTH = 400
@@ -50,14 +48,14 @@ while carryOn:
     screen.fill(WHITE)
 
     # Queue different shapes and lines to be drawn
-    # pygame.draw.rect(screen, RED, [55, 200, 100, 70], 0)
+
     #GRID
-    pygame.draw.line(screen, BLACK, [0, 100], [400, 100], 1)
-    pygame.draw.line(screen, BLACK, [0, 200], [400, 200], 1)
-    pygame.draw.line(screen, BLACK, [0, 300], [400, 300], 1)
-    pygame.draw.line(screen, BLACK, [100, 0], [100, 400], 1)
-    pygame.draw.line(screen, BLACK, [200, 0], [200, 400], 1)
-    pygame.draw.line(screen, BLACK, [300, 0], [300, 400], 1)
+    #pygame.draw.line(screen, BLACK, [0, 100], [400, 100], 1)
+    #pygame.draw.line(screen, BLACK, [0, 200], [400, 200], 1)
+    #pygame.draw.line(screen, BLACK, [0, 300], [400, 300], 1)
+    #pygame.draw.line(screen, BLACK, [100, 0], [100, 400], 1)
+    #pygame.draw.line(screen, BLACK, [200, 0], [200, 400], 1)
+    #pygame.draw.line(screen, BLACK, [300, 0], [300, 400], 1)
     #CIRCLES
     pygame.draw.ellipse(screen, BLACK, [50,50, 300, 300], 0)
     pygame.draw.ellipse(screen, WHITE, [63,63, 275, 275], 0)
